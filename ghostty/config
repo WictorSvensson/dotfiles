@@ -1,0 +1,24 @@
+#Style
+theme = Catppuccin Frappe
+font-family = "JetBrainsMono Nerd Font"
+font-size = 14
+
+mouse-hide-while-typing = true
+
+#Mac
+macos-titlebar-style = hidden
+macos-titlebar-style = tabs
+
+#Keymaps
+keybind = ctrl+shift+r=reload_config
+keybind = ctrl+shift+l=previous_tab
+keybind = ctrl+shift+h=next_tab
+keybind = cmd+t=new_tab
+keybind = cmd+w=close_tab
+keybind = ctrl+shift+h=goto_split:left
+keybind = ctrl+shift+l=goto_split:right
+keybind = ctrl+shift+j=goto_split:down
+keybind = ctrl+shift+k=goto_split:up
+keybind = ctrl+shift+d=new_split:right
+keybind = ctrl+shift+s=new_split:down
+keybind = ctrl+shift+w=close_surface
