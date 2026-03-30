@@ -1,6 +1,6 @@
 # Dotfiles
 
-Personal configuration files for Zsh, Neovim, and Ghostty.
+Personal configuration files for Zsh, Neovim, Ghostty, and AeroSpace.
 
 ## Prerequisites
 
@@ -35,6 +35,9 @@ ln -sfn ~/Develop/dotfiles/nvim ~/.config/nvim
 # Ghostty
 mkdir -p ~/.config/ghostty
 ln -sfn ~/Develop/dotfiles/ghostty/config ~/.config/ghostty/config
+
+# AeroSpace
+ln -sf ~/Develop/dotfiles/.aerospace.toml ~/.aerospace.toml
 ```
 
 ### 4. Reload Zsh
@@ -69,3 +72,4 @@ git -C ~/Develop/dotfiles push
 | `.zshrc`              | `~/.zshrc`                     |
 | `nvim/`               | `~/.config/nvim/`              |
 | `ghostty/config`      | `~/.config/ghostty/config`     |
+| `.aerospace.toml`     | `~/.aerospace.toml`            |

@@ -102,3 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Created by `pipx` on 2026-03-27 08:07:02
+export PATH="$PATH:/Users/Wictor.Svensson/Library/Python/3.13/bin"

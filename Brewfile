@@ -14,3 +14,6 @@ brew "gh"
 # Fonts & terminal
 cask "font-jetbrains-mono-nerd-font"
 cask "ghostty"
+
+# Window Manager
+cask "aerospace"
