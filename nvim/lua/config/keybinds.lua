@@ -1,5 +1,5 @@
 vim.g.mapleader = ' '
-vim.keymap.set('n', '<leader>cd', vim.cmd.Ex)
+vim.keymap.set('n', '<leader>cd', '<cmd>cd %:p:h<cr>', { desc = 'cd to current buffer dir' })
 
 -- Inaktivera piltangenter för att tvinga fram hjkl
 local modes = { 'n', 'i', 'v' }

@@ -13,8 +13,6 @@ return {
       require("mason").setup()
       require("mason-lspconfig").setup({
         ensure_installed = {
-          "ruby_lsp",    -- ruby LSP from Shopify
-          -- "solargraph", -- still pretty popular, an alternative to ruby_lsp
           "lua_ls", -- lua LSP
           "html", -- html LSP
           "cssls", -- css LSP
@@ -65,7 +63,7 @@ return {
       -- HTML LSP
       vim.lsp.config.html = {
         cmd = { "vscode-html-language-server", "--stdio" },
-        filetypes = { "html", "erb" },
+        filetypes = { "html" },
         root_markers = { "package.json", ".git" },
         capabilities = capabilities,
         on_attach = on_attach,
@@ -83,7 +81,7 @@ return {
       -- Emmet LSP
       vim.lsp.config.emmet_ls = {
         cmd = { "emmet-ls", "--stdio" },
-        filetypes = { "html", "css", "scss", "erb" },
+        filetypes = { "html", "css", "scss" },
         root_markers = { "package.json", ".git" },
         capabilities = capabilities,
         on_attach = on_attach,
