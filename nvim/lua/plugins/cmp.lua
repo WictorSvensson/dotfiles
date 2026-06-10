@@ -33,6 +33,24 @@ return {
         { name = "path" },
       }),
     })
+
+    -- Command-line completion for `/` and `?` (search)
+    cmp.setup.cmdline({ "/", "?" }, {
+      mapping = cmp.mapping.preset.cmdline(),
+      sources = {
+        { name = "buffer" },
+      },
+    })
+
+    -- Command-line completion for `:` (commands, including :RenderMarkdown)
+    cmp.setup.cmdline(":", {
+      mapping = cmp.mapping.preset.cmdline(),
+      sources = cmp.config.sources({
+        { name = "path" },
+      }, {
+        { name = "cmdline" },
+      }),
+    })
   end
 }
 
