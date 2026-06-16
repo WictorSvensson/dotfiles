@@ -1,0 +1,6 @@
+# Copy this file to ~/.zshrc.local and fill in the values
+# ~/.zshrc.local is gitignored and never committed
+
+export TEAMCITY_TOKEN=""
+export HIAB_JFROG_TOKEN=""
+export HIAB_JFROG_USER=""

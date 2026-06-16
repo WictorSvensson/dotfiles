@@ -6,3 +6,6 @@
 # Node
 node_modules/
 npm-debug.log*
+
+# Local secrets — never commit
+.zshrc.local
