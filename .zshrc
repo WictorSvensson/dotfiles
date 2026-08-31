@@ -108,5 +108,6 @@ source $ZSH/oh-my-zsh.sh
 # Created by `pipx` on 2026-03-27 08:07:02
 export PATH="$PATH:/Users/Wictor.Svensson/Library/Python/3.13/bin"
 alias avanza="cd /Users/Wictor.Svensson/Develop/avanza-bot && source .venv/bin/activate"
+alias python=python3
 # Load local secrets (not committed to git)
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
